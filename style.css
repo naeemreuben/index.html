@@ -1,0 +1,79 @@
+  .splash-screen{
+    background-image: url("img/background.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:969px;
+  }
+
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    position: sticky;
+    margin-top: 10px
+  }
+
+  .navbar-brand{
+    padding-left: 50px
+  }
+
+  .active{
+    color:#10C9C3;
+  }
+
+  .nav navbar-nav{
+    text-align: right;
+    color:black;
+  }
+
+  .SUS{
+    margin:55px;
+  }
+
+  /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+  .row.content {height: 450px}
+
+  /* Set black background color, white text and some padding */
+  footer {
+    background-color: white;
+    color: black;
+    padding: 15px;
+  }
+
+  h4{
+    color: darkgrey;
+    line-height: 30px;
+  }
+
+  /* On small screens, set height to 'auto' for sidenav and grid */
+  @media screen and (max-width: 767px) {
+    .sidenav {
+      height: auto;
+      padding: 15px;
+    }
+    .row.content {height:auto;}
+  }
+
+  .gallery{
+    padding: 0;
+    margin: 0;
+  }
+
+  .baa{
+    background-color:#10C9C3;
+    color:white;
+  }
+
+  .glob{
+    background-color:#F5F5F5;
+    margin:0px;
+  }
+
+  .fred{
+    color:#787878;
+    margin:50px;
+  }
+
+  h5{
+    color:black;
+    padding-top:10px;
+  }
